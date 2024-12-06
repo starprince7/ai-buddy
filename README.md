@@ -1,2 +1,2 @@
-# ai-buddy 👋
+# ai-buddy 🧸
 
