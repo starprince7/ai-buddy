@@ -1,17 +1,10 @@
 import { configureStore } from "@reduxjs/toolkit";
-import productReducer from "./slices/productSlice";
-import cartReducer from "./slices/cartSlice";
-import AuthReducer from "./slices/authSlice";
-import ShippingInfoReducer from "./slices/shippingInfoSlice"
-import AppReducer from './slices/App'
+
+import aiReducer from "./slices/ai";
 
 const Store = configureStore({
   reducer: {
-    App: AppReducer,
-    Products: productReducer,
-    Cart: cartReducer,
-    Auth: AuthReducer,
-    ShippingInfo: ShippingInfoReducer
+    Ai: aiReducer,
   },
   middleware: (getDefaultMiddleware) =>
     getDefaultMiddleware({
