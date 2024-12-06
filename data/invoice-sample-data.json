@@ -1,0 +1,63 @@
+{
+    "bill_of_lading_number": "PZ331409076FR",
+    "title": "Proforma Invoice",
+    "shipper_exporter": {
+      "name": "Pooja Robin",
+      "address": "189 avenue Aristide Briand, 94230 Cachan, France",
+      "phone": "+33 745404431",
+      "email": "preeti89@yahoo.com",
+      "country_of_export": "France"
+    },
+    "consignee": {
+      "name": "Preeti",
+      "address": "C/O Robin Singh, Village Chatha Gobindpura, Tehsil Moonak, Sangrur, Punjab 148001, India",
+      "phone": "+91 9307241851",
+      "email": "preeti89@yahoo.com",
+      "incoterm": "Delivered at Place"
+    },
+    "final_use": {
+      "gift": true,
+      "personal_use": false,
+      "sample": false,
+      "intra_company_transfer": false
+    },
+    "goods": [
+      {
+        "package_count": 1,
+        "description": "One big size leather handbag white with brown combination",
+        "quantity": 1,
+        "unit_of_measure": "pcs",
+        "weight": "1.9 kg",
+        "unit_value": 72,
+        "total_value": 72,
+        "country_of_origin": "France"
+      },
+      {
+        "package_count": 1,
+        "description": "One pair of mini size leather ladies handbag, white color",
+        "quantity": 1,
+        "unit_of_measure": "pcs",
+        "weight": "1.6 kg",
+        "unit_value": 70,
+        "total_value": 70,
+        "country_of_origin": "France"
+      },
+      {
+        "package_count": 1,
+        "description": "Handmade beauty pageant celebration gown, off-white color",
+        "quantity": 1,
+        "unit_of_measure": "pcs",
+        "weight": "2.2 kg",
+        "unit_value": 129,
+        "total_value": 129,
+        "country_of_origin": "France"
+      }
+    ],
+    "total_weight": "5.7 kg",
+    "total_value": 271,
+    "footer": "These commodities are licensed for the ultimate destination shown. The exporter of the products covered by this document declares that, except otherwise clearly indicated, these products are of EEA preferential origin.",
+    "signature": {
+      "name": "Pooja Robin",
+      "date": "02/12/2024"
+    }
+  }

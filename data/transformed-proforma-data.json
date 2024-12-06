@@ -1,0 +1,178 @@
+[
+    {
+      "name": "bill_of_lading_number",
+      "label": "Bill of Lading Number",
+      "type": "text",
+      "value": "PZ331409076FR",
+      "required": true,
+      "group": "Shipping Information"
+    },
+    {
+      "name": "title",
+      "label": "Document Title",
+      "type": "text", 
+      "value": "Proforma Invoice",
+      "required": true,
+      "group": "Document Details"
+    },
+    {
+      "name": "shipper_name",
+      "label": "Shipper Name",
+      "type": "text",
+      "value": "Pooja Robin",
+      "required": true,
+      "group": "Shipper Information"
+    },
+    {
+      "name": "shipper_address",
+      "label": "Shipper Address",
+      "type": "text",
+      "value": "189 avenue Aristide Briand, 94230 Cachan, France",
+      "required": true,
+      "group": "Shipper Information"
+    },
+    {
+      "name": "shipper_phone",
+      "label": "Shipper Phone",
+      "type": "text",
+      "value": "+33 745404431",
+      "required": false,
+      "group": "Shipper Information"
+    },
+    {
+      "name": "shipper_email",
+      "label": "Shipper Email",
+      "type": "text",
+      "value": "preeti89@yahoo.com",
+      "required": false,
+      "group": "Shipper Information"
+    },
+    {
+      "name": "shipper_country",
+      "label": "Country of Export",
+      "type": "text",
+      "value": "France",
+      "required": true,
+      "group": "Shipper Information"
+    },
+    {
+      "name": "consignee_name",
+      "label": "Consignee Name",
+      "type": "text",
+      "value": "Preeti",
+      "required": true,
+      "group": "Consignee Information"
+    },
+    {
+      "name": "consignee_address",
+      "label": "Consignee Address",
+      "type": "text",
+      "value": "C/O Robin Singh, Village Chatha Gobindpura, Tehsil Moonak, Sangrur, Punjab 148001, India",
+      "required": true,
+      "group": "Consignee Information"
+    },
+    {
+      "name": "consignee_phone",
+      "label": "Consignee Phone",
+      "type": "text",
+      "value": "+91 9307241851",
+      "required": false,
+      "group": "Consignee Information"
+    },
+    {
+      "name": "consignee_email",
+      "label": "Consignee Email",
+      "type": "text",
+      "value": "preeti89@yahoo.com",
+      "required": false,
+      "group": "Consignee Information"
+    },
+    {
+      "name": "incoterm",
+      "label": "Incoterm",
+      "type": "text",
+      "value": "Delivered at Place",
+      "required": true,
+      "group": "Shipping Terms"
+    },
+    {
+      "name": "is_gift",
+      "label": "Gift",
+      "type": "boolean",
+      "value": true,
+      "required": true,
+      "group": "Shipment Purpose"
+    },
+    {
+      "name": "is_personal_use",
+      "label": "Personal Use",
+      "type": "boolean",
+      "value": false,
+      "required": true,
+      "group": "Shipment Purpose"
+    },
+    {
+      "name": "is_sample",
+      "label": "Sample",
+      "type": "boolean",
+      "value": false,
+      "required": true,
+      "group": "Shipment Purpose"
+    },
+    {
+      "name": "is_intra_company_transfer",
+      "label": "Intra-Company Transfer",
+      "type": "boolean",
+      "value": false,
+      "required": true,
+      "group": "Shipment Purpose"
+    },
+    {
+      "name": "total_packages",
+      "label": "Total Packages",
+      "type": "number",
+      "value": 3,
+      "required": true,
+      "group": "Goods Details"
+    },
+    {
+      "name": "total_weight",
+      "label": "Total Weight",
+      "type": "text",
+      "value": "5.7 kg",
+      "required": true,
+      "group": "Goods Details"
+    },
+    {
+      "name": "total_value",
+      "label": "Total Value",
+      "type": "number",
+      "value": 271,
+      "required": true,
+      "group": "Goods Details"
+    },
+    {
+      "name": "document_footer",
+      "label": "Document Footer",
+      "type": "text",
+      "value": "These commodities are licensed for the ultimate destination shown. The exporter of the products covered by this document declares that, except otherwise clearly indicated, these products are of EEA preferential origin.",
+      "required": false,
+      "group": "Additional Information"
+    },
+    {
+      "name": "signature_name",
+      "label": "Signatory Name",
+      "type": "text",
+      "value": "Pooja Robin",
+      "required": true,
+      "group": "Signature"
+    },
+    {
+      "name": "signature_date",
+      "label": "Signature Date",
+      "type": "text",
+      "value": "02/12/2024",
+      "required": true,
+      "group": "Signature"
+    }
+  ]
