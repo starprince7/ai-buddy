@@ -1,10 +1,6 @@
 import { postToAi } from "@/utility/post-to-ai";
 import { PayloadAction, createAsyncThunk, createSlice } from "@reduxjs/toolkit";
 
-type ActionArgs = {
-  prompt: string;
-  file: string;
-};
 
 interface AiStore {
   error: string;
@@ -15,12 +11,13 @@ interface AiStore {
 const initialState: AiStore = {
   error: "",
   requestStatus: "idle",
-  messages: []
+  messages: [],
 };
 
-export const analyzeFile = createAsyncThunk<any, ActionArgs>(
+export const analyzeFile = createAsyncThunk<any, string>(
   "ai/analyzeFile",
-  async ({ file, prompt }) => {
+  async (file) => {
+    const prompt = ``
     const result = await postToAi(file, prompt);
     return result.data;
   }
@@ -31,8 +28,8 @@ const appSlice = createSlice({
   initialState,
   reducers: {},
   extraReducers: (builder) => {
-    builder.addCase(analyzeFile.pending, state => {
-      state.requestStatus = 'loading'
+    builder.addCase(analyzeFile.pending, (state) => {
+      state.requestStatus = "loading";
     });
     builder.addCase(analyzeFile.rejected, (state, action) => {
       state.requestStatus = "failed";
@@ -40,9 +37,9 @@ const appSlice = createSlice({
     });
     builder.addCase(analyzeFile.fulfilled, (state, action) => {
       state.requestStatus = "succeeded";
-      state.messages = action.payload
+      state.messages = action.payload;
     });
-  }
+  },
 });
 
 export default appSlice.reducer;

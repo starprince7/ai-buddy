@@ -1,11 +1,14 @@
 import { View, Text, SafeAreaView } from "react-native";
 import React from "react";
 import { AddFile } from "@/components/AddFile";
+import { analyzeFile } from "@/store/slices/ai";
 
-export default function FileAttachmentScreen() {
-  const handleFileSubmit = (fileRecevied: string) => {
+export default function ScanInvoice() {
+  const handleFileSubmit = (fileUri: string) => {
     // Send file to ai.
-    console.log({ fileRecevied });
+
+    analyzeFile(fileUri)
+    console.log({ fileUri });
   };
 
   return (

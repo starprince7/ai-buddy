@@ -2,7 +2,7 @@ import { configureStore } from "@reduxjs/toolkit";
 
 import aiReducer from "./slices/ai";
 
-const Store = configureStore({
+const store = configureStore({
   reducer: {
     Ai: aiReducer,
   },
@@ -12,4 +12,4 @@ const Store = configureStore({
     }),
 });
 
-export default Store;
+export default store;
